@@ -2,7 +2,38 @@
 
 body {
     width: 35em;
-    margin:120;
-    font-family: Tahoma, Verdana, Inpact, sans-serif;
-    background-color: #a88a71;
+    margin:8vh;
+    font-family: Tahoma, Verdana, Impact, sans-serif;
+    background: linear-gradient(to bottom, #ffdcad, #ac8047);
+    color: #755224;
+
+}
+h1 {
+    font-family:'Franklin Gothic Medium';
+}
+
+.logo{
+    margin-left: 400px;
+    margin-top: -60px;
+    width: 40px;
+    height: 40px;
+    border: 0; 
+}
+
+img {
+    width: 400px;
+    height: 400px; 
+    border: 10px 
+    solid; color: #755224;
+}
+.white-text{
+    color:#ec921c;
+    
+}
+
+
+p span{
+    color:#aa6306;
+    font-weight: 900;
+    font-size: x-large ;
 }
