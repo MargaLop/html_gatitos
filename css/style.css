@@ -2,7 +2,6 @@
 
 body {
     width: 35em;
-    margin:8vh;
     font-family: Tahoma, Verdana, Impact, sans-serif;
     background: linear-gradient(to bottom, #ffdcad, #ac8047);
     color: #755224;
@@ -14,19 +13,31 @@ h1 {
 
 .logo{
     padding-top: 1em;
+    padding-right: 0.5em;
     width: 40px;
     height: 40px;
     border: 0; 
+    margin: 0;
+    
 }
 .cabecera{
     display: flex;
     flex-flow: row;
 }
-img {
+.pagina{
+    margin: auto;
+    width: 70%;
+}
+body{
+    width: 100vw;
+}
+img, iframe{
     width: 400px;
     height: 400px; 
     border: 10px 
     solid; color: #755224;
+    display: block;
+    margin: auto;
 }
 .white-text{
     color:#ec921c;
